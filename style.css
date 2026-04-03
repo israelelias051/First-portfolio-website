@@ -19,10 +19,18 @@
   font-family: sans-serif, Arial, Helvetica;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 200vh;
   background: var(--background-color);
   color: var(--text-color);
+}
+
+section {
+  scroll-margin-top: 100px;
 }
 
 /* Header */
